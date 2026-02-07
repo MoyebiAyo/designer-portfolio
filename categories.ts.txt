@@ -1,0 +1,7 @@
+export const categories = [
+  "Branding",
+  "Social Media",
+  "Print Design",
+  "Digital Design",
+  "Thumbnails",
+];

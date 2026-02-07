@@ -1,0 +1,11 @@
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": ".next",
+  "devCommand": "npm run dev",
+  "installCommand": "npm install --legacy-peer-deps",
+  "framework": "nextjs",
+  "env": {
+    "NEXT_PUBLIC_SANITY_PROJECT_ID": "7q83k20t",
+    "NEXT_PUBLIC_SANITY_DATASET": "production"
+  }
+}

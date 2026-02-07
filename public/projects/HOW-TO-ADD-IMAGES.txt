@@ -1,0 +1,114 @@
+# 🖼️ How to Add Your Project Images
+
+## Folder Structure
+
+This is where you put your project images:
+
+```
+projects/
+├── branding/          ← Brand identity, logos, packaging
+├── social-media/      ← Instagram, Facebook, Twitter graphics
+├── print-design/      ← Flyers, posters, brochures, menus
+├── digital-design/    ← UI/UX, app designs, websites
+└── thumbnails/        ← YouTube thumbnails, video graphics
+```
+
+## Steps to Add Your Images
+
+### 1. Copy Your Images Here
+
+Drag and drop your images into the appropriate folder based on the project category.
+
+**Example:**
+```
+projects/
+└── print-design/
+    ├── church-flyer-main.jpg
+    ├── church-flyer-back.jpg
+    └── church-flyer-mockup.jpg
+```
+
+### 2. Update the Project Data
+
+Open: `app/data/projects.ts`
+
+Find the section that says "ADD YOUR NEW PROJECTS BELOW THIS LINE" and add your project:
+
+```javascript
+{
+  id: "9",
+  slug: "church-event-flyer",
+  title: "Church Event Flyer",
+  category: "Print Design",
+  thumbnail: "/projects/print-design/church-flyer-main.jpg",
+  images: [
+    "/projects/print-design/church-flyer-main.jpg",
+    "/projects/print-design/church-flyer-back.jpg",
+    "/projects/print-design/church-flyer-mockup.jpg"
+  ],
+  problem: "Describe the challenge",
+  solution: "Explain your solution",
+  process: [
+    "Your design process steps"
+  ],
+  results: "The outcome",
+  year: "2024",
+  client: "Client Name"
+}
+```
+
+### 3. Save and Refresh
+
+- Save the `projects.ts` file
+- The dev server will automatically reload
+- Refresh your browser to see the new project
+
+## Image Guidelines
+
+### Recommended Sizes:
+- **Thumbnails:** 800×600px (shown in grid)
+- **Detail Images:** 1200×800px or larger (shown in project page)
+
+### File Formats:
+- JPG (best for photos)
+- PNG (best for graphics with transparency)
+- WebP (best for web, smaller file size)
+
+### File Naming:
+Use descriptive, URL-friendly names:
+- ✅ `church-flyer-main.jpg`
+- ✅ `coffee-logo-final.png`
+- ❌ `IMG_1234.jpg`
+- ❌ `Final Version 2 (1).png`
+
+### Keep Files Small:
+- Compress images before uploading
+- Aim for under 500KB per image
+- Use tools like TinyPNG.com or Squoosh.app
+
+## Quick Tips
+
+### To Replace ALL Images:
+1. Delete placeholder projects in `app/data/projects.ts`
+2. Add your own projects with your image paths
+3. Update categories in `app/data/categories.ts` if needed
+
+### To Replace Just ONE Image:
+1. Find the project in `app/data/projects.ts`
+2. Change the URL to your new image path
+3. Save and refresh
+
+### To Add More Images to a Project:
+Just add more URLs to the `images` array:
+```javascript
+images: [
+  "/projects/print-design/image1.jpg",
+  "/projects/print-design/image2.jpg",
+  "/projects/print-design/image3.jpg",
+  "/projects/print-design/image4.jpg",  // Add as many as you want!
+]
+```
+
+## Need Help?
+
+Check the example project template in `app/data/projects.ts` - it shows you exactly what fields to fill in!

@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "createdAt": "2026-01-26T11:12:57.301Z",
+  "workspaces": [
+    {
+      "name": "default",
+      "title": "My Graphics Design Portfolio",
+      "basePath": "/",
+      "dataset": "production",
+      "schema": "8785d602.create-schema.json"
+    }
+  ]
+}
