@@ -1,6 +1,6 @@
 # Graphic Designer Portfolio Website
 
-A modern, visually striking portfolio website for a graphic designer built with Next.js 14, TypeScript, and Tailwind CSS.
+A modern, visually striking portfolio website for a graphic designer built with Next.js 14, TypeScript, and Tailwind CSS. Integrated with Sanity CMS for dynamic content management and GitHub for version control.
 
 ## Features
 
