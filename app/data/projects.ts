@@ -21,7 +21,8 @@ export const projects: Project[] = [
       "/projects/church-designs/phosphorus.jpg",
       "/projects/church-designs/thanksgiving-sunday.jpg",
       "/projects/church-designs/worship-experience.jpg",
-      "/projects/church-designs/amen-thing.jpg"
+      "/projects/church-designs/amen-thing.jpg",
+      "/projects/church-designs/walking-by-faith.png"
     ],
     problem: "Creating visually compelling and spiritually uplifting materials for diverse church events that effectively communicate their message and reach the congregation.",
     solution: "Designed a series of vibrant and impactful flyers and promotional materials, using bold typography, symbolic imagery, and dynamic layouts to capture the essence of each event.",
@@ -72,7 +73,8 @@ export const projects: Project[] = [
     images: [
       "/projects/weddings-birthdays/wedding-flyer.jpg",
       "/projects/weddings-birthdays/birthday-flyer-rachael.jpg",
-      "/projects/weddings-birthdays/birthday-flyer-asafa.png"
+      "/projects/weddings-birthdays/birthday-flyer-asafa.png",
+      "/projects/weddings-birthdays/hbd-chinonso-okoh.png"
     ],
     problem: "Personal milestones like weddings and birthdays require designs that are not only informative but also deeply personal, capturing the unique joy and personality of the individuals involved.",
     solution: "Created a series of heart-centered and celebratory designs, blending high-quality personal photography with elegant typography and thematic elements (like clouds, glowing hearts, and geometric overlays) to create lasting visual memories.",

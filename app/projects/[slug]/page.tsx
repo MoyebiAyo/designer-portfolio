@@ -41,6 +41,7 @@ export default function ProjectPage({ params }: { params: { slug: string } }) {
     "thanksgiving-sunday.jpg": "A dynamic Batch B1 Thanksgiving Sunday design capturing the energy of worship with multi-layered photography, geometric elements, and the theme 'Taking Territories for God,' emphasizing community and spiritual conquest.",
     "worship-experience.jpg": "An elegant Sunday Glorious Service flyer featuring radiant golden trumpets and warm worship imagery, designed around the theme 'The Worship Experience: A Living Sacrifice' with sophisticated typographic hierarchy.",
     "amen-thing.jpg": "A cinematic State Day of Fasting and Prayer design with monumental 3D stone typography reading 'AMEN THING' set against a majestic mountain landscape, conveying breakthrough and answered prayers with powerful visual metaphors.",
+    "walking-by-faith.png": "A powerful Sunday Glorious Service flyer for Nigeria Christian Corpers' Fellowship, featuring a striking tightrope walker visual metaphor that beautifully illustrates the theme 'Walking by Faith' with scripture references from Romans and 2 Corinthians.",
     // Social Media Campaign Descriptions
     "leadership-newspaper.jpg": "A unique, newspaper-themed social media post for a leadership masterclass, cleverly using editorial aesthetics to ask the provocative question: 'How To Tell You Are Wasting Your Life.'",
     "mastering-growth.jpg": "A professional and strategic design for the 'Mastering Your Growth' class, using chess motifs and a deep green palette to symbolize leadership development.",
@@ -54,6 +55,7 @@ export default function ProjectPage({ params }: { params: { slug: string } }) {
     "wedding-flyer.jpg": "An elegant wedding flyer for Titilopemi & Moses (#MOLOPE 23), featuring a beautiful circular photo layout and a soft glowing heart motif to celebrate their union.",
     "birthday-flyer-rachael.jpg": "A celebratory birthday flyer for Rachael Taiwo, utilizing ethereal cloud textures and a sophisticated multi-photo layout to capture her joy and personality.",
     "birthday-flyer-asafa.png": "A professional yet celebratory birthday flyer for Asafa Taiwo, blending ministry credentials with a warm, high-quality portrait and modern geometric overlays.",
+    "hbd-chinonso-okoh.png": "An elegant birthday celebration design for Chinonso Okoh, National Sisters' Coordinator, featuring a sophisticated purple-themed layout with multiple portrait photos, decorative typography, and warm celebratory messaging.",
     // T-Shirt & Mockup Descriptions
     "shortsleeve-mockup.jpg": "A high-fidelity 3D mockup of the 'Pathfinder' conference short-sleeve tees in black and white, demonstrating the clean and prominent chest logo placement.",
     "delegate-short-mockup.jpg": "Specialized short-sleeve delegate uniforms featuring color-coded sleeves (Green and Blue) to distinguish between different conference roles while maintaining brand unity.",
