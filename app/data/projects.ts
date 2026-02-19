@@ -22,7 +22,8 @@ export const projects: Project[] = [
       "/projects/church-designs/thanksgiving-sunday.jpg",
       "/projects/church-designs/worship-experience.jpg",
       "/projects/church-designs/amen-thing.jpg",
-      "/projects/church-designs/walking-by-faith.png"
+      "/projects/church-designs/walking-by-faith.png",
+      "/projects/church-designs/pathfinder-conference.jpg"
     ],
     problem: "Creating visually compelling and spiritually uplifting materials for diverse church events that effectively communicate their message and reach the congregation.",
     solution: "Designed a series of vibrant and impactful flyers and promotional materials, using bold typography, symbolic imagery, and dynamic layouts to capture the essence of each event.",
