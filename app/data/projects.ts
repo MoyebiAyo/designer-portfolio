@@ -8,6 +8,10 @@ export const projects: Project[] = [
     category: "Print Design",
     thumbnail: "/projects/church-designs/impact-conference.jpg",
     images: [
+      "/projects/church-designs/Faith Sunday Glor.png",
+      "/projects/church-designs/Limitless main.png",
+      "/projects/church-designs/NDPFAP.png",
+      "/projects/church-designs/rural-rugged.png",
       "/projects/church-designs/impact-conference.jpg",
       "/projects/church-designs/help-from-above.jpg",
       "/projects/church-designs/power-in-his-name.jpg",
@@ -161,5 +165,44 @@ export const projects: Project[] = [
     results: "Highly successful brand launches with identities that feel premium, modern, and perfectly aligned with the clients' professional goals.",
     year: "2024",
     client: "Various Corporate Clients"
+  },
+  {
+    id: "countdown-design",
+    slug: "countdown-design",
+    title: "Countdown Design",
+    category: "Social Media",
+    thumbnail: "/projects/countdown-design/National-Conference-2026-COUNTDOWN-25.png",
+    images: [
+      "/projects/countdown-design/Limitless countdown 1.png",
+      "/projects/countdown-design/Limitless countdown 2.png",
+      "/projects/countdown-design/Limitless countdown 3.png",
+      "/projects/countdown-design/Limitless countdown 4.png",
+      "/projects/countdown-design/Limitless countdown 5.png",
+      "/projects/countdown-design/Limitless countdown today.png",
+      "/projects/countdown-design/NC countdown 2.png",
+      "/projects/countdown-design/NC countdown 5.png",
+      "/projects/countdown-design/NC countdown 6.png",
+      "/projects/countdown-design/NC countdown 7.png",
+      "/projects/countdown-design/NC countdown 8.png",
+      "/projects/countdown-design/NC countdown 16.png",
+      "/projects/countdown-design/NC countdown 20.png",
+      "/projects/countdown-design/NC countdown 22.png",
+      "/projects/countdown-design/NC countdown 23.png",
+      "/projects/countdown-design/NC countdown 24.png",
+      "/projects/countdown-design/National-Conference-2026-COUNTDOWN-25.png",
+      "/projects/countdown-design/National-Conference-2026-COUNTDOWN-26.png",
+      "/projects/countdown-design/National-Conference-2026-COUNTDOWN-27.png"
+    ],
+    problem: "Creating engaging and visually striking countdown graphics for events and conferences that build anticipation and maintain audience excitement as the event date approaches.",
+    solution: "Designed a comprehensive series of countdown graphics with bold typography, dynamic visual elements, and consistent branding across multiple milestone days, ensuring each design feels urgent and celebratory while maintaining professional quality.",
+    process: [
+      "Concept Development: Establishing a visual theme that builds anticipation and excitement.",
+      "Template Design: Creating flexible layouts that can be adapted for different countdown milestones.",
+      "Typography & Hierarchy: Using bold, eye-catching numbers and clear event information.",
+      "Variation Production: Generating multiple versions for different days while maintaining brand consistency."
+    ],
+    results: "Successfully generated sustained audience engagement across social media platforms, with each countdown post driving increased anticipation and event registration.",
+    year: "2026",
+    client: "Various Event Organizers"
   }
 ];
